@@ -43,7 +43,7 @@ class Decoder(srd.Decoder):
     license = 'gplv2+'
     inputs = ['uart']
     outputs = []
-    tags = ['mp3/uart']
+    tags = ['Audio']
     annotations = (
         ('rx', 'DFPlayerMini RX Data'),
         ('tx', 'DFPlayerMini TX Data'),
